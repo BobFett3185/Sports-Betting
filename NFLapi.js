@@ -23,8 +23,11 @@ const fetch = require('node-fetch');
 const API_KEY  = process.env.NFLAPI;
 const url = `https://api.sportradar.us/nfl/official/trial/v7/en/games/2024/REG/3/schedule.json?api_key=${API_KEY}`;
 
+const func = async () => {
+}
 
 
+//hi
 async function getNFLGames() {
   try {
     const response = await fetch(url);
